@@ -1,0 +1,39 @@
+.food h2 {
+    color: red;
+    font-size: 25px;
+}
+
+
+
+.food::before,
+.food::after {
+    content: '';
+    display: table;
+}
+
+.food::after {
+    clear: both;
+}
+
+
+
+.food .smapic {
+    float: left;
+    width: 285px;
+    height: 280px;
+    line-height: 30px;
+    text-align: center;
+    background-color: pink;
+    margin-bottom: 20px;
+}
+
+.food .smapic img {
+    width: 100%;
+    height: 90%;
+}
+
+.gekai {
+    float: left;
+    width: 20px;
+    height: 280px;
+}

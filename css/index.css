@@ -1,0 +1,51 @@
+.main {
+    height: 770px;
+}
+
+.main .bigpic {
+    position: relative;
+    z-index: -1;
+    float: left;
+    width: 590px;
+    height: 375px;
+    margin-bottom: 20px;
+}
+
+.main .bigpic img {
+    width: 100%;
+    height: 100%;
+}
+
+.main .bigpic .view {
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    left: 50px;
+    font-size: 30px;
+    color: white;
+}
+
+.gekai {
+    float: left;
+    width: 20px;
+    height: 300px;
+}
+
+.main .smapic {
+    float: left;
+    width: 285px;
+    height: 375px;
+    margin-bottom: 20px;
+}
+
+.main .smapic img {
+    width: 100%;
+    height: 92%;
+}
+
+.main .smapic .smaview {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background-color: pink;
+}

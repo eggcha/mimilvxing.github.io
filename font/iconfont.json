@@ -1,0 +1,51 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "38219463",
+      "name": "圣诞拐杖",
+      "font_class": "shengdanguaizhang",
+      "unicode": "e6fa",
+      "unicode_decimal": 59130
+    },
+    {
+      "icon_id": "38219465",
+      "name": "圣诞晚餐",
+      "font_class": "shengdanwancan",
+      "unicode": "e6fb",
+      "unicode_decimal": 59131
+    },
+    {
+      "icon_id": "38219469",
+      "name": "圣诞礼盒",
+      "font_class": "shengdanlihe",
+      "unicode": "e6fc",
+      "unicode_decimal": 59132
+    },
+    {
+      "icon_id": "39392125",
+      "name": "048_订阅",
+      "font_class": "a-048_dingyue",
+      "unicode": "e6f6",
+      "unicode_decimal": 59126
+    },
+    {
+      "icon_id": "39392154",
+      "name": "048_我的",
+      "font_class": "a-048_wode",
+      "unicode": "e6f9",
+      "unicode_decimal": 59129
+    },
+    {
+      "icon_id": "39392159",
+      "name": "048_摇一摇",
+      "font_class": "a-048_yaoyiyao",
+      "unicode": "e6fd",
+      "unicode_decimal": 59133
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.daohang {
+    border-bottom: solid 1px #d9d9d9;
+    height: 90px;
+}
+
+.daohangmain {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    left: 50%;
+    margin-left: -600px;
+}
+
+.daohangmain h1 {
+    float: left;
+    width: 200px;
+    height: 90px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.logo a {
+    font-size: 0px;
+    display: block;
+    float: left;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    background: url(../images/logo.jpg) no-repeat;
+    background-size: contain;
+}
+
+.daohangmain .dropdown {
+    z-index: 1;
+    position: relative;
+    float: left;
+    padding-top: 63px;
+    text-align: center;
+    width: 250px;
+    height: 90px;
+
+}
+
+.daohangmain .dropdown .dt {
+    font-size: 15px;
+}
+
+.daohangmain .dropdown .dt img {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -20px;
+    height: 40px;
+    width: 40px;
+}
+
+.daohangmain .dropdown .dd .smadd {
+    visibility: hidden;
+    margin-top: 4px;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.daohangmain .dropdown .dd .smadd {
+    float: left;
+    width: 83px;
+}
+
+.daohangmain .dropdown .dd .smadd1 {
+    float: left;
+    width: 250px;
+}
+
+.daohangmain .dropdown .dd .smadt {
+    height: 31px;
+    line-height: 31px;
+    font-size: 15px;
+}
+
+.daohangmain .dropdown .dd li {
+    height: 31px;
+    line-height: 31px;
+}
+
+
+.daohangmain .dropdown .dd li:hover a {
+    color: red;
+}
+
+.daohangmain .dropdown:hover .dd .smadd {
+    visibility: visible;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.cebian {
+    position: fixed;
+    top: 30%;
+    right: 1px;
+}
+
+.cebian .cebian1 {
+    margin: 3px 1px;
+    height: 70px;
+}
+
+.cebian .cebian1 a {
+    display: block;
+    float: right;
+    height: 72px;
+    width: 50px;
+}
+
+.cebian .cebian2 {
+    float: left;
+    display: none;
+    background-color: white;
+    padding-right: 5px;
+}
+
+.cebian .cebian2 img {
+    height: 70px;
+    width: 70px;
+    padding-right: 3px;
+}
+
+.cebian1 a:hover~.cebian2 {
+    display: block;
+}
+
+.footer {
+    height: 150px;
+    background-color: #f5f5f5;
+    padding-top: 10px;
+}
+
+.footer .w div {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links a {
+    margin: 0 3px;
+}
+
+.copyright {
+    line-height: 20px;
+}
